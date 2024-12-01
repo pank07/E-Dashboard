@@ -1,4 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import {ReactComponent as Add} from './cart-plus-solid.svg';
+import {ReactComponent as Remove} from './trash-solid.svg';
+import {ReactComponent as Update} from './pen-to-square-solid.svg';
+
 import { Link } from 'react-router-dom';
 function ProductList() {
     const [products, setProducts] = useState([]);
@@ -45,7 +49,11 @@ function ProductList() {
                 <li><b>Price</b></li>
                 <li><b>Category</b></li>
                 <li><b>Company</b></li>
-                <li id='operation-column'><b>Operation</b></li>
+                <li id='operation-column'>
+                <Add width='30' height='30' style={{marginLeft:"20px"}} />
+                <Remove width='30' height='30'style={{marginLeft:"20px"}}/>
+                <Update width='30' height='30'style={{marginLeft:"20px"}}/></li>
+
             </ul>
             {products.length > 0 ? (
                 products.map((item, index) => (
