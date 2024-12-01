@@ -1,117 +1,142 @@
-.container-fluid{
+.container-fluid {
   margin-top: 5px;
-  background-color: tomato;
+  background-color: rgb(124, 212, 212);
 }
-.wel-text{
-  color: teal;
+
+.wel-text {
+  color: rgb(255, 255, 255);
   font-size: larger;
   height: 90px;
-  font-weight:600;
+  font-weight: 600;
 }
-.logo{
+
+.logo {
   height: 50px;
   width: 50px;
   border-radius: 25px;
   float: left;
   margin-top: -60px;
 }
-.wel-btn{
-  display:inline-flex;
+
+.wel-btn {
+  display: inline-flex;
   width: 300px;
-  justify-content:center;
+  justify-content: center;
 }
-.forgot{
+
+.forgot {
   text-decoration: none;
   justify-content: center;
   text-align: center;
   width: 450px;
 }
-.forgot a{
+
+.forgot a {
   text-decoration: none;
 }
-.forgot :hover{
-color:green;
+
+.forgot :hover {
+  color: green;
 }
-.navbar{
+
+.navbar {
   list-style: none;
-  margin-left: 950px;
-  margin-bottom:80px ;
-  background-color:tomato;
+  margin-left: 900px;
+  margin-bottom: 80px;
+  background-color: rgb(124, 212, 212);
 }
-.navbar ul{
+
+.navbar ul {
   list-style: none;
   margin-bottom: 20px;
 }
 
-.navbar a{
+.navbar a {
   text-decoration: none;
   color: white;
 }
-.navbar li:hover{
-  background-color:teal;
-  border-radius:5px ;
+
+.navbar li:hover {
+  background-color: teal;
+  border-radius: 5px;
 }
-.add-product{
-  background-color: tomato;
+
+.add-product {
+  background-color: rgb(124, 212, 212);
   color: white;
 }
-.add-product:hover{
-  background-color:#0D6EFD;
+
+.add-product:hover {
+  background-color: #0D6EFD;
   color: white;
 }
-@keyframes App-log-spin{
-  from{
+
+@keyframes App-log-spin {
+  from {
     transform: rotate(0deg);
   }
-  to{
+
+  to {
     transform: rotate(360deg);
   }
 }
+
 .valid-input {
   display: block;
   color: red;
 }
-.product-list{
-table-layout: fixed;
-text-align:justify;
+
+.product-list {
+  table-layout: fixed;
+  text-align: justify;
 
 }
-.product-list ul{
+
+.product-list ul {
   margin: 0;
 }
-.product-list ul li{
+
+.product-list ul li {
   display: inline-block;
   width: 200px;
   height: 35px;
-  border:none;
+  border: none;
   padding: 5px;
 }
-#operation-column{
-  width:240px; /* Set the width to your desired value */
-    text-align: center; /* Optional: Align text */
-    overflow: hidden;
+
+#operation-column {
+  width: 240px;
+  /* Set the width to your desired value */
+  text-align: center;
+  /* Optional: Align text */
+  overflow: hidden;
 }
-#name{
-  color: tomato;
+
+#name {
+  color: rgb(124, 212, 212);
   font-weight: bold;
   margin-left: 590px;
   margin-top: 10px;
   font-family: 'sans-serif';
 }
-.form{
+
+.form {
   background-color: rgb(255, 255, 255);
-}
-.form-2{
-  background-color: rgb(255, 255, 255);
-}
-.footer{
-  background-color: tomato;
-  color: rgb(255, 255, 255);
-  align-items: center;
-height: 200px;
 }
 
-.footer  li{
+.form-2 {
+  background-color: rgb(255, 255, 255);
+}
+
+.footer {
+  background-color:rgb(124, 212, 212);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 61px;
+  height: 150px;
+}
+
+.footer li {
   display: inline;
   margin-left: 100px;
   padding: 10px;
@@ -119,40 +144,49 @@ height: 200px;
   color: rgb(255, 255, 255);
   align-items: center;
 }
-.footer  a{
+
+.footer a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   align-items: center;
 }
+.social{
+text-align: center;
+padding: 20px;
+margin-right: 100px;
+}
+/* #whatsapp :hover {
+  background-color: rgb(38, 128, 0);
+  border-radius: 5px;
+  padding: 5px;
+} */
 
-#whatsapp :hover{
-  background-color:rgb(38, 128, 0);
+/* #Facebook :hover {
+  background-color: rgb(23, 98, 247);
   border-radius: 5px;
   padding: 5px;
 }
-#Facebook :hover{
-  background-color:rgb(23, 98, 247);
-  border-radius: 5px;
-  padding: 5px;
-}
-#instagram :hover{
-  background-color:rgb(235, 35, 125);
-  border-radius: 5px;
-  padding: 5px;
-}
-  #Telegram :hover{
-    background-color:rgb(72, 73, 76);
-    border-radius: 5px;
-    padding: 5px;
-  }
 
-#Twitter :hover{
-  background-color:rgb(81, 92, 127);
+#instagram :hover {
+  background-color: rgb(235, 35, 125);
   border-radius: 5px;
   padding: 5px;
 }
-#telephone :hover{
-  background-color:rgb(150, 154, 161);
+
+#Telegram :hover {
+  background-color: rgb(72, 73, 76);
   border-radius: 5px;
   padding: 5px;
 }
+
+#Twitter :hover {
+  background-color: rgb(81, 92, 127);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#telephone :hover {
+  background-color: rgb(150, 154, 161);
+  border-radius: 5px;
+  padding: 5px;
+} */
